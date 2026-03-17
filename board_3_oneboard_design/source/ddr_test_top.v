@@ -744,38 +744,23 @@ video_zoom hdmi_video_zoom(
    );
 
 // ============== ����Ԥ������ˮ�ߣ����� HDMI ����� ==============
-// 灰度转换
 gray_convert u_gray (
-    .clk (pix_clk_in),
-    .rst_n (ddr_ip_rst_n && ddr_init_done),
-    .de_in (de_in),
-    .r_in (r_in),
-    .g_in (g_in),
-    .b_in (b_in),
-    .de_out (gray_de),
+    .clk      (pix_clk_in),
+    .rst_n    (ddr_ip_rst_n && ddr_init_done),
+    .de_in    (de_in),
+    .r_in     (r_in),
+    .g_in     (g_in),
+    .b_in     (b_in),
+    .de_out   (gray_de),
     .gray_out (gray_data)
 );
 
-// 新增：中值滤波去噪
-wire median_de;
-wire [7:0] median_data;
-
-median_filter_3x3 u_median (
-    .clk     (pix_clk_in),
-    .rst_n   (ddr_ip_rst_n && ddr_init_done),
-    .de_in   (gray_de),
-    .gray_in (gray_data),
-    .de_out  (median_de),
-    .gray_out(median_data)
-);
-
-// Sobel 接中值输出（注意延迟增加了，所以 Sobel 输入延迟也需匹配）
 sobel_edge u_sobel (
-    .clk (pix_clk_in),
-    .rst_n (ddr_ip_rst_n && ddr_init_done),
-    .de_in (median_de),
-    .gray_in (median_data),
-    .de_out (edge_de),
+    .clk      (pix_clk_in),
+    .rst_n    (ddr_ip_rst_n && ddr_init_done),
+    .de_in    (gray_de),
+    .gray_in  (gray_data),
+    .de_out   (edge_de),
     .edge_out (edge_data)
 );
 // ================================================

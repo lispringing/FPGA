@@ -3,10 +3,10 @@ module axi_m_arbitration #(
     parameter integer VIDEO_HIGTH       = 1080                            ,
     parameter integer ZOOM_VIDEO_LENGTH = 960                             ,
     parameter integer ZOOM_VIDEO_HIGTH  = 540                             ,
-    parameter integer PIXEL_WIDTH       = 32                              ,
-	parameter integer CTRL_ADDR_WIDTH   = 28                              ,
-	parameter integer DQ_WIDTH	       = 32                             ,
-    parameter integer M_AXI_BRUST_LEN   = 8
+    parameter integer PIXEL_WIDTH       = 32                              ,//像素位宽
+	parameter integer CTRL_ADDR_WIDTH   = 28                              ,//地址宽度
+	parameter integer DQ_WIDTH	       = 32                               ,//AXI数据总线宽度为DQ_WIDTH*8=256位，即一次传输32字节
+    parameter integer M_AXI_BRUST_LEN   = 8                                ////每个突发传输8个256位数据，共256字节
 )
 (
 	input wire                                    DDR_INIT_DONE           /* synthesis PAP_MARK_DEBUG="1" */,
@@ -278,7 +278,7 @@ always @(posedge M_AXI_ACLK ) begin
                 if(M0_AXI_WLAST) begin//第一次传输完成，对第二个主机进行传输
                     arbitration_wr_state <= M1_WRITE;
                 end
-                else if( (!(wfifo0_state == 'd3)) && (wfifo0_rd_water_level < M_AXI_BRUST_LEN) && (wr_addr_cnt0 < wr_addr_max - M_AXI_BRUST_LEN * 8 )) begin
+                else if( (!(wfifo0_state == 'd3)) && (wfifo0_rd_water_level < M_AXI_BRUST_LEN) && (wr_addr_cnt0 < wr_addr_max - M_AXI_BRUST_LEN * 8 )) begin//fifo写满并且写入的长度ddr所能承受的最大地址
                     arbitration_wr_state <= M1_WRITE;
                 end       
             end

@@ -676,8 +676,8 @@ user_axi_m_arbitration (
     .vs_out                  (vs_out      ),
 //fifo0信号          
     .video0_clk_in           (pix_clk_in),                                                                                                                  
-    .video0_de_in            (zoom_de_out    ),
-    .video0_data_in          (zoom_data_out  ),
+    .video0_de_in            (edge_de_delayed ),
+    .video0_data_in          (edge_packed ),
     .video0_rd_en            (video0_rd_en   ),
     .video0_data_out         (video0_data_out),
     .fram0_done              (fram0_done     ),
@@ -742,6 +742,47 @@ video_zoom hdmi_video_zoom(
     .de_out             (zoom_de_out                  ),
     .video_data_out     (zoom_data_out                )
    );
+
+// ============== 车牌预处理流水线（接在 HDMI 输入后） ==============
+gray_convert u_gray (
+    .clk      (pix_clk_in),
+    .rst_n    (ddr_ip_rst_n && ddr_init_done),
+    .de_in    (de_in),
+    .r_in     (r_in),
+    .g_in     (g_in),
+    .b_in     (b_in),
+    .de_out   (gray_de),
+    .gray_out (gray_data)
+);
+
+sobel_edge u_sobel (
+    .clk      (pix_clk_in),
+    .rst_n    (ddr_ip_rst_n && ddr_init_done),
+    .de_in    (gray_de),
+    .gray_in  (gray_data),
+    .de_out   (edge_de),
+    .edge_out (edge_data)
+);
+// ================================================
+
+// ============== 【关键修复】Sobel 延迟对齐 + 打包 ==============
+reg edge_de_d1, edge_de_d2;
+reg [7:0] edge_data_d1, edge_data_d2;
+
+always @(posedge pix_clk_in) begin
+    edge_de_d1   <= edge_de;
+    edge_data_d1 <= edge_data;
+    edge_de_d2   <= edge_de_d1;
+    edge_data_d2 <= edge_data_d1;
+end
+
+wire edge_de_delayed   = edge_de_d2;
+wire [7:0] edge_data_delayed = edge_data_d2;
+
+wire [31:0] edge_packed;
+assign edge_packed = {edge_data_delayed, 2'b00, edge_data_delayed, 2'b00, edge_data_delayed, 2'b00, 2'b00};
+// ================================================
+
 
 
 pll_cfg user_pll_cfg (

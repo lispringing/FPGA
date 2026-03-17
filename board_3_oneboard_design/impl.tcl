@@ -3053,3 +3053,41 @@ pnr
 report_timing 
 gen_bit_stream 
 report_power 
+add_design "D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/source/gray_convert.v"
+add_design "D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/source/sobel_edge.v"
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module test_ddr
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module test_ddr
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module test_ddr
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module test_ddr
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+gen_bit_stream 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module test_ddr
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 

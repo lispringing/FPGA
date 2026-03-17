@@ -11,13 +11,13 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:35s</data>
-            <data>0h:0m:35s</data>
-            <data>0h:0m:36s</data>
-            <data>830</data>
+            <data>0h:0m:27s</data>
+            <data>0h:0m:27s</data>
+            <data>0h:0m:29s</data>
+            <data>829</data>
             <data>WINDOWS 10 x86_64</data>
-            <data>AMD Ryzen 9 4900HS with Radeon Graphics</data>
-            <data>39</data>
+            <data>Unknown</data>
+            <data>15</data>
         </row>
     </table>
     <general_container id="generate_bit_stream_settings">

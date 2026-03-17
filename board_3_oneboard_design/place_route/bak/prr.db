@@ -6358,50 +6358,50 @@
         </row>
         <row>
             <data>Use of CLMA</data>
-            <data>2438</data>
+            <data>2409</data>
             <data>6450</data>
             <data>38</data>
             <row>
                 <data>  FF</data>
-                <data>6632</data>
+                <data>6594</data>
                 <data>38700</data>
                 <data>18</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>7644</data>
+                <data>7678</data>
                 <data>25800</data>
                 <data>30</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>3173</data>
+                <data>3261</data>
                 <data>25800</data>
                 <data>13</data>
             </row>
         </row>
         <row>
             <data>Use of CLMS</data>
-            <data>1556</data>
+            <data>1500</data>
             <data>4250</data>
-            <data>37</data>
+            <data>36</data>
             <row>
                 <data>  FF</data>
-                <data>3945</data>
+                <data>3934</data>
                 <data>25500</data>
                 <data>16</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>4863</data>
+                <data>4669</data>
                 <data>17000</data>
-                <data>29</data>
+                <data>28</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>1887</data>
+                <data>1765</data>
                 <data>17000</data>
-                <data>12</data>
+                <data>11</data>
             </row>
             <row>
                 <data>  Distributed RAM</data>
@@ -6430,9 +6430,9 @@
         </row>
         <row>
             <data>Use of DRM</data>
-            <data>130</data>
+            <data>101</data>
             <data>134</data>
-            <data>98</data>
+            <data>76</data>
         </row>
         <row>
             <data>Use of FUSECODE</data>
@@ -6442,9 +6442,9 @@
         </row>
         <row>
             <data>Use of HARD0N1</data>
-            <data>1405</data>
+            <data>1260</data>
             <data>6672</data>
-            <data>22</data>
+            <data>19</data>
         </row>
         <row>
             <data>Use of HSST</data>
@@ -6568,9 +6568,9 @@
         </row>
         <row>
             <data>Use of RCKB</data>
-            <data>1</data>
+            <data>0</data>
             <data>24</data>
-            <data>5</data>
+            <data>0</data>
         </row>
         <row>
             <data>Use of RCKBMUX_TEST</data>
@@ -6651,11 +6651,11 @@
         </column_headers>
         <row>
             <data>test_ddr</data>
-            <data>12489</data>
-            <data>10577</data>
+            <data>12337</data>
+            <data>10528</data>
             <data>73</data>
             <data>0</data>
-            <data>130</data>
+            <data>101</data>
             <data>0</data>
             <data>2</data>
             <data>8</data>
@@ -6669,7 +6669,7 @@
             <data>0</data>
             <data>1</data>
             <data>4</data>
-            <data>1</data>
+            <data>0</data>
             <data>0</data>
             <data>1</data>
             <data>0</data>
@@ -6677,8 +6677,8 @@
             <data>17</data>
             <row>
                 <data>I_ipsxb_ddr_top</data>
-                <data>4032</data>
-                <data>3976</data>
+                <data>4038</data>
+                <data>3977</data>
                 <data>73</data>
                 <data>0</data>
                 <data>0</data>
@@ -6730,8 +6730,8 @@
                 </row>
                 <row>
                     <data>u_ddrphy_top</data>
-                    <data>2381</data>
-                    <data>2343</data>
+                    <data>2384</data>
+                    <data>2344</data>
                     <data>0</data>
                     <data>0</data>
                     <data>0</data>
@@ -7134,7 +7134,7 @@
                     </row>
                     <row>
                         <data>ddrphy_slice_top</data>
-                        <data>1567</data>
+                        <data>1569</data>
                         <data>1361</data>
                         <data>0</data>
                         <data>0</data>
@@ -7160,7 +7160,7 @@
                         <data>0</data>
                         <row>
                             <data>i_dqs_group[0].u_ddrphy_data_slice</data>
-                            <data>462</data>
+                            <data>461</data>
                             <data>308</data>
                             <data>0</data>
                             <data>0</data>
@@ -7294,7 +7294,7 @@
                             </row>
                             <row>
                                 <data>dqs_rddata_align</data>
-                                <data>45</data>
+                                <data>44</data>
                                 <data>74</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -7376,7 +7376,7 @@
                         </row>
                         <row>
                             <data>i_dqs_group[1].u_ddrphy_data_slice</data>
-                            <data>399</data>
+                            <data>396</data>
                             <data>284</data>
                             <data>0</data>
                             <data>0</data>
@@ -7402,7 +7402,7 @@
                             <data>0</data>
                             <row>
                                 <data>data_slice_dqs_gate_cal</data>
-                                <data>83</data>
+                                <data>84</data>
                                 <data>61</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -7428,7 +7428,7 @@
                                 <data>0</data>
                                 <row>
                                     <data>dqs_gate_coarse_cal</data>
-                                    <data>34</data>
+                                    <data>35</data>
                                     <data>26</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -7537,7 +7537,7 @@
                             </row>
                             <row>
                                 <data>dqsi_rdel_cal</data>
-                                <data>164</data>
+                                <data>160</data>
                                 <data>81</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -7699,7 +7699,7 @@
                             </row>
                             <row>
                                 <data>data_slice_wrlvl</data>
-                                <data>104</data>
+                                <data>106</data>
                                 <data>68</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -7726,7 +7726,7 @@
                             </row>
                             <row>
                                 <data>dqs_rddata_align</data>
-                                <data>45</data>
+                                <data>44</data>
                                 <data>74</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -7753,7 +7753,7 @@
                             </row>
                             <row>
                                 <data>dqsi_rdel_cal</data>
-                                <data>108</data>
+                                <data>107</data>
                                 <data>59</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -7808,7 +7808,7 @@
                         </row>
                         <row>
                             <data>i_dqs_group[3].u_ddrphy_data_slice</data>
-                            <data>332</data>
+                            <data>338</data>
                             <data>262</data>
                             <data>0</data>
                             <data>0</data>
@@ -7969,7 +7969,7 @@
                             </row>
                             <row>
                                 <data>dqsi_rdel_cal</data>
-                                <data>98</data>
+                                <data>104</data>
                                 <data>59</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -8106,8 +8106,8 @@
                     </row>
                     <row>
                         <data>ddrphy_training_ctrl</data>
-                        <data>4</data>
-                        <data>7</data>
+                        <data>5</data>
+                        <data>8</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -8134,7 +8134,7 @@
                 </row>
                 <row>
                     <data>u_ipsxb_ddrc_top</data>
-                    <data>1650</data>
+                    <data>1653</data>
                     <data>1631</data>
                     <data>73</data>
                     <data>0</data>
@@ -8214,7 +8214,7 @@
                     </row>
                     <row>
                         <data>mcdq_dcd_top</data>
-                        <data>171</data>
+                        <data>175</data>
                         <data>141</data>
                         <data>0</data>
                         <data>0</data>
@@ -8266,7 +8266,7 @@
                             <data>0</data>
                             <row>
                                 <data>mcdq_dcd_rowaddr</data>
-                                <data>13</data>
+                                <data>17</data>
                                 <data>8</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -8294,7 +8294,7 @@
                         </row>
                         <row>
                             <data>mcdq_dcd_sm</data>
-                            <data>51</data>
+                            <data>55</data>
                             <data>69</data>
                             <data>0</data>
                             <data>0</data>
@@ -9942,7 +9942,7 @@
                     </row>
                     <row>
                         <data>mcdq_ui_axi</data>
-                        <data>144</data>
+                        <data>143</data>
                         <data>288</data>
                         <data>0</data>
                         <data>0</data>
@@ -10457,7 +10457,7 @@
             </row>
             <row>
                 <data>eth0_img_pkt</data>
-                <data>290</data>
+                <data>289</data>
                 <data>235</data>
                 <data>0</data>
                 <data>0</data>
@@ -10942,8 +10942,35 @@
                 <data>0</data>
             </row>
             <row>
+                <data>u_gray</data>
+                <data>0</data>
+                <data>1</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+            </row>
+            <row>
                 <data>u_ipsl_pcie_wrap</data>
-                <data>762</data>
+                <data>764</data>
                 <data>545</data>
                 <data>0</data>
                 <data>0</data>
@@ -10969,7 +10996,7 @@
                 <data>0</data>
                 <row>
                     <data>u_pcie_top</data>
-                    <data>762</data>
+                    <data>764</data>
                     <data>545</data>
                     <data>0</data>
                     <data>0</data>
@@ -11292,7 +11319,7 @@
                     </row>
                     <row>
                         <data>u_pcie_soft_phy</data>
-                        <data>681</data>
+                        <data>683</data>
                         <data>446</data>
                         <data>0</data>
                         <data>0</data>
@@ -11426,7 +11453,7 @@
                         </row>
                         <row>
                             <data>hsst_pciex4_rst</data>
-                            <data>479</data>
+                            <data>481</data>
                             <data>251</data>
                             <data>0</data>
                             <data>0</data>
@@ -11479,7 +11506,7 @@
                             </row>
                             <row>
                                 <data>hsst_rx_rst_mcrsw</data>
-                                <data>305</data>
+                                <data>307</data>
                                 <data>152</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -11910,7 +11937,7 @@
                                 </row>
                                 <row>
                                     <data>rx_rst_fsm_multi_sw_lane</data>
-                                    <data>115</data>
+                                    <data>117</data>
                                     <data>49</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -12427,8 +12454,35 @@
                 <data>0</data>
             </row>
             <row>
+                <data>u_sobel</data>
+                <data>0</data>
+                <data>3</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+            </row>
+            <row>
                 <data>u_udp</data>
-                <data>573</data>
+                <data>572</data>
                 <data>331</data>
                 <data>0</data>
                 <data>0</data>
@@ -12508,7 +12562,7 @@
                 </row>
                 <row>
                     <data>u_udp_tx</data>
-                    <data>354</data>
+                    <data>353</data>
                     <data>118</data>
                     <data>0</data>
                     <data>0</data>
@@ -12536,7 +12590,7 @@
             </row>
             <row>
                 <data>u_video_enhance</data>
-                <data>686</data>
+                <data>687</data>
                 <data>361</data>
                 <data>0</data>
                 <data>0</data>
@@ -12589,7 +12643,7 @@
                 </row>
                 <row>
                     <data>video_enhance_yuv2rgb</data>
-                    <data>304</data>
+                    <data>305</data>
                     <data>192</data>
                     <data>0</data>
                     <data>0</data>
@@ -12617,7 +12671,7 @@
             </row>
             <row>
                 <data>user_axi_m_arbitration</data>
-                <data>2321</data>
+                <data>2326</data>
                 <data>976</data>
                 <data>0</data>
                 <data>0</data>
@@ -12643,7 +12697,7 @@
                 <data>0</data>
                 <row>
                     <data>u_axi_full_m0</data>
-                    <data>106</data>
+                    <data>108</data>
                     <data>57</data>
                     <data>0</data>
                     <data>0</data>
@@ -12670,7 +12724,7 @@
                 </row>
                 <row>
                     <data>u_axi_full_m1</data>
-                    <data>108</data>
+                    <data>110</data>
                     <data>53</data>
                     <data>0</data>
                     <data>0</data>
@@ -12697,7 +12751,7 @@
                 </row>
                 <row>
                     <data>u_axi_full_m2</data>
-                    <data>109</data>
+                    <data>113</data>
                     <data>55</data>
                     <data>0</data>
                     <data>0</data>
@@ -12724,7 +12778,7 @@
                 </row>
                 <row>
                     <data>u_axi_full_m3</data>
-                    <data>110</data>
+                    <data>111</data>
                     <data>55</data>
                     <data>0</data>
                     <data>0</data>
@@ -13724,7 +13778,7 @@
             </row>
             <row>
                 <data>user_hdmi_ctrl</data>
-                <data>337</data>
+                <data>336</data>
                 <data>237</data>
                 <data>0</data>
                 <data>0</data>
@@ -13750,7 +13804,7 @@
                 <data>0</data>
                 <row>
                     <data>user_iic_rx_driver</data>
-                    <data>71</data>
+                    <data>70</data>
                     <data>56</data>
                     <data>0</data>
                     <data>0</data>
@@ -13777,7 +13831,7 @@
                 </row>
                 <row>
                     <data>user_iic_tx_driver</data>
-                    <data>73</data>
+                    <data>74</data>
                     <data>61</data>
                     <data>0</data>
                     <data>0</data>
@@ -13804,7 +13858,7 @@
                 </row>
                 <row>
                     <data>user_ms7200_ctrl</data>
-                    <data>102</data>
+                    <data>101</data>
                     <data>54</data>
                     <data>0</data>
                     <data>0</data>
@@ -13940,11 +13994,11 @@
             </row>
             <row>
                 <data>u_CORES</data>
-                <data>1834</data>
-                <data>2306</data>
+                <data>1698</data>
+                <data>2250</data>
                 <data>0</data>
                 <data>0</data>
-                <data>31</data>
+                <data>2</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -13978,127 +14032,133 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:2m:48s</data>
-            <data>0h:2m:48s</data>
-            <data>0h:2m:51s</data>
-            <data>1,586</data>
+            <data>0h:2m:4s</data>
+            <data>0h:2m:4s</data>
+            <data>0h:2m:7s</data>
+            <data>1,560</data>
             <data>WINDOWS 10 x86_64</data>
-            <data>AMD Ryzen 9 4900HS with Radeon Graphics</data>
-            <data>39</data>
+            <data>Unknown</data>
+            <data>15</data>
         </row>
     </table>
     <table id="pnr_messages" title="Place &amp; Route Messages" column_number="1">
         <column_headers/>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 4)] | Port cmos1_sda has been placed at location Y13, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 4)] | Port cmos1_sda has been placed at location Y13, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 7)] | Port iic_sda has been placed at location V20, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 7)] | Port iic_sda has been placed at location V20, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 18)] | Port mem_dq[9] has been placed at location M2, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 18)] | Port mem_dq[9] has been placed at location M2, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 20)] | Port mem_dq[11] has been placed at location M1, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 20)] | Port mem_dq[11] has been placed at location M1, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 23)] | Port mem_dq[14] has been placed at location P3, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 23)] | Port mem_dq[14] has been placed at location P3, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 53)] | Port eth_rgmii_tx_ctl_0 has been placed at location F22, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 53)] | Port eth_rgmii_tx_ctl_0 has been placed at location F22, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 56)] | Port eth_rgmii_txd_0[1] has been placed at location E20, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 56)] | Port eth_rgmii_txd_0[1] has been placed at location E20, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 57)] | Port eth_rgmii_txd_0[2] has been placed at location E22, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 57)] | Port eth_rgmii_txd_0[2] has been placed at location E22, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 58)] | Port eth_rgmii_txd_0[3] has been placed at location F21, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 58)] | Port eth_rgmii_txd_0[3] has been placed at location F21, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 59)] | Port eth_rst_n_0 has been placed at location F19, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 59)] | Port eth_rst_n_0 has been placed at location F19, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 66)] | Port iic_scl has been placed at location V19, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 66)] | Port iic_scl has been placed at location V19, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 99)] | Port pix_clk_out has been placed at location M22, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 99)] | Port pix_clk_out has been placed at location M22, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 102)] | Port r_b_out[2] has been placed at location T21, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 102)] | Port r_b_out[2] has been placed at location T21, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 104)] | Port r_b_out[4] has been placed at location R20, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 104)] | Port r_b_out[4] has been placed at location R20, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 105)] | Port r_b_out[5] has been placed at location R22, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 105)] | Port r_b_out[5] has been placed at location R22, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 109)] | Port r_g_out[0] has been placed at location M21, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 109)] | Port r_g_out[0] has been placed at location M21, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 114)] | Port r_g_out[5] has been placed at location L19, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 114)] | Port r_g_out[5] has been placed at location L19, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 115)] | Port r_g_out[6] has been placed at location K20, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 115)] | Port r_g_out[6] has been placed at location K20, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 116)] | Port r_g_out[7] has been placed at location L17, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 116)] | Port r_g_out[7] has been placed at location L17, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 118)] | Port r_r_out[0] has been placed at location K17, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 118)] | Port r_r_out[0] has been placed at location K17, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 123)] | Port r_r_out[5] has been placed at location H21, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 123)] | Port r_r_out[5] has been placed at location H21, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 124)] | Port r_r_out[6] has been placed at location H22, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 124)] | Port r_r_out[6] has been placed at location H22, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 125)] | Port r_r_out[7] has been placed at location H19, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 125)] | Port r_r_out[7] has been placed at location H19, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 142)] | Port cmos1_data[7] has been placed at location AB13, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 142)] | Port cmos1_data[7] has been placed at location AB13, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 154)] | Port cmos2_href has been placed at location AB5, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 154)] | Port cmos2_href has been placed at location AB5, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 156)] | Port cmos2_vsync has been placed at location Y5, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 156)] | Port cmos2_vsync has been placed at location Y5, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 163)] | Port eth_rgmii_rxd_0[3] has been placed at location F18, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 163)] | Port eth_rgmii_rxd_0[3] has been placed at location F18, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 165)] | Port g_in[1] has been placed at location V17, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 165)] | Port g_in[1] has been placed at location V17, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 166)] | Port g_in[2] has been placed at location W18, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 166)] | Port g_in[2] has been placed at location W18, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 167)] | Port g_in[3] has been placed at location AB19, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 167)] | Port g_in[3] has been placed at location AB19, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 168)] | Port g_in[4] has been placed at location AA18, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 168)] | Port g_in[4] has been placed at location AA18, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 169)] | Port g_in[5] has been placed at location AB18, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 169)] | Port g_in[5] has been placed at location AB18, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2001: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 172)] Object 'hs_in' is dangling, which has no connection. it will be ignored.</data>
+            <data message="6">ConstraintEditor-2001: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 172)] Object 'hs_in' is dangling, which has no connection. it will be ignored.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 173)] | Port pcie_perst_n has been placed at location A19, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 173)] | Port pcie_perst_n has been placed at location A19, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 174)] | Port pix_clk_in has been placed at location AA12, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 174)] | Port pix_clk_in has been placed at location AA12, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/FPGA/PANGOMICRO/done/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 184)] | Port rst_board has been placed at location K18, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/device_map/ddr_test_top.pcf(line number: 184)] | Port rst_board has been placed at location K18, whose type is share pin.</data>
         </row>
         <row>
             <data message="4">Column Clock Check open.</data>
+        </row>
+        <row>
+            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_0/iGopDrm, insts:2.</data>
+        </row>
+        <row>
+            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_1_1_0/iGopDrm, insts:2.</data>
         </row>
         <row>
             <data message="4">Infer CARRY group, base inst: u_ipsl_pcie_wrap/u_pcie_top/u_pcie_hard_ctrl/u_pcie_cfg_init/init_rom_1_reg_10_concat_4/iGopDrm_inv, insts:2.</data>
@@ -14221,13 +14281,13 @@
             <data message="6">Route-2036: The clock path from ref_clk_ibuf/opit_1:OUT to u_ipsl_pcie_wrap/u_pcie_top/u_pcie_soft_phy/x2.u_pcie_hsst/U_GTP_HSST_WRAPPER/U_GTP_HSST/hsst:CFG_CLK is routed by SRB.</data>
         </row>
         <row>
-            <data message="6">Route-2015: Hold violation is 5681 ps over the critical value of 5000 ps, beyond the critical value will not be repaired.</data>
+            <data message="6">Route-2015: Hold violation is 5628 ps over the critical value of 5000 ps, beyond the critical value will not be repaired.</data>
         </row>
         <row>
-            <data message="5">Timing-4105: The worst slack of endpoint cmos2_8_16bit/pdata_out2[1]/opit_0/D of clock cmos2_pclk_16bit is -5443ps(slow corner), but required hold violation threshold is 200ps.</data>
+            <data message="5">Timing-4105: The worst slack of endpoint cmos2_8_16bit/pdata_out2[3]/opit_0/D of clock cmos2_pclk_16bit is -5388ps(slow corner), but required hold violation threshold is 200ps.</data>
         </row>
         <row>
-            <data message="6">STA-3017: There are 115 clock cross SRB paths do not meet the required hold violation threshold(200ps).</data>
+            <data message="6">STA-3017: There are 58 clock cross SRB paths do not meet the required hold violation threshold(200ps).</data>
         </row>
     </table>
     <general_container id="pnr_settings">
@@ -14529,7 +14589,7 @@
                     <data>clkbufg_3/gopclkbufg</data>
                     <data>USCM_84_118</data>
                     <data>ntclkbufg_0</data>
-                    <data>4492</data>
+                    <data>4494</data>
                     <data>0</data>
                     <data>I_ipsxb_ddr_top/I_GTP_CLKDIV/gopclkdiv</data>
                     <data>CLKDIV</data>
@@ -14539,7 +14599,7 @@
                     <data>clkbufg_4/gopclkbufg</data>
                     <data>USCM_84_109</data>
                     <data>ntclkbufg_1</data>
-                    <data>947</data>
+                    <data>946</data>
                     <data>0</data>
                     <data>user_pll_video_out/u_pll_e3/goppll</data>
                     <data>CLKOUT0</data>
@@ -14559,7 +14619,7 @@
                     <data>clkbufg_6/gopclkbufg</data>
                     <data>USCM_84_121</data>
                     <data>ntclkbufg_3</data>
-                    <data>544</data>
+                    <data>504</data>
                     <data>0</data>
                     <data>u_CORES/u_GTP_SCANCHAIN_PG/scanchain</data>
                     <data>TCK_USER</data>
@@ -14569,7 +14629,7 @@
                     <data>clkbufg_7/gopclkbufg</data>
                     <data>USCM_84_111</data>
                     <data>ntclkbufg_4</data>
-                    <data>364</data>
+                    <data>370</data>
                     <data>0</data>
                     <data>pix_clk_in_ibuf/opit_1</data>
                     <data>INCK</data>
@@ -14659,7 +14719,7 @@
                     <data>eth0_gmii_to_rgmii/GTP_CLKBUFG_RXSHFT/gopclkbufg</data>
                     <data>USCM_84_108</data>
                     <data>rgmii_clk_0</data>
-                    <data>2211</data>
+                    <data>2148</data>
                     <data>0</data>
                     <data>eth0_gmii_to_rgmii/rgmii_clk_delay/opit_0</data>
                     <data>CLKOUT</data>
@@ -14707,10 +14767,10 @@
                     <data>I_ipsxb_ddr_top/u_ipsxb_ddrphy_pll_0/u_pll_e3/goppll</data>
                     <data>PLL_158_199</data>
                     <data>CLKIN2</data>
-                    <data>ntR2294</data>
+                    <data>ntR2253</data>
                     <data> - </data>
                     <data> - </data>
-                    <data>GND_566</data>
+                    <data>GND_530</data>
                     <data>Z</data>
                     <data>HARD0N1_156_197</data>
                 </row>
@@ -14740,10 +14800,10 @@
                     <data>I_ipsxb_ddr_top/u_ipsxb_ddrphy_pll_1/u_pll_e3/goppll</data>
                     <data>PLL_158_179</data>
                     <data>CLKIN2</data>
-                    <data>ntR2298</data>
+                    <data>ntR2257</data>
                     <data> - </data>
                     <data> - </data>
-                    <data>GND_1153</data>
+                    <data>GND_1067</data>
                     <data>Z</data>
                     <data>HARD0N1_156_181</data>
                 </row>
@@ -14773,10 +14833,10 @@
                     <data>user_pll_cfg/u_pll_e3/goppll</data>
                     <data>PLL_158_55</data>
                     <data>CLKIN2</data>
-                    <data>ntR3306</data>
+                    <data>ntR3172</data>
                     <data> - </data>
                     <data> - </data>
-                    <data>GND_1152</data>
+                    <data>GND_1066</data>
                     <data>Z</data>
                     <data>HARD0N1_156_57</data>
                 </row>
@@ -14806,10 +14866,10 @@
                     <data>user_pll_video_out/u_pll_e3/goppll</data>
                     <data>PLL_158_75</data>
                     <data>CLKIN2</data>
-                    <data>ntR3310</data>
+                    <data>ntR3176</data>
                     <data> - </data>
                     <data> - </data>
-                    <data>GND_8</data>
+                    <data>GND_10</data>
                     <data>Z</data>
                     <data>HARD0N1_156_73</data>
                 </row>
@@ -14818,7 +14878,7 @@
                     <data>PLL_158_199</data>
                     <data>CLKOUT0_WL</data>
                     <data>clkout0_wl_0</data>
-                    <data>4493</data>
+                    <data>4495</data>
                     <data>0</data>
                     <data> ... </data>
                     <data> ... </data>
@@ -14873,7 +14933,7 @@
                     <data>PLL_158_75</data>
                     <data>CLKOUT0</data>
                     <data>nt_pix_clk_out</data>
-                    <data>947</data>
+                    <data>946</data>
                     <data>1</data>
                     <data> ... </data>
                     <data> ... </data>

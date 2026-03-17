@@ -12,11 +12,11 @@
         </comment>
         <row>
             <data>Total On Chip Power</data>
-            <data>1.98028</data>
+            <data>1.96217</data>
         </row>
         <row>
             <data>Static Power</data>
-            <data>0.434404</data>
+            <data>0.43284</data>
         </row>
         <row>
             <data>External Power</data>
@@ -24,15 +24,15 @@
         </row>
         <row>
             <data>Junction Temperature</data>
-            <data>58.0512</data>
+            <data>57.749</data>
         </row>
         <row>
             <data>Thermal Margin</data>
-            <data>41.9488</data>
+            <data>42.251</data>
         </row>
         <row>
             <data>Power Margin</data>
-            <data>2.5119</data>
+            <data>2.53</data>
         </row>
     </table>
     <table id="report_power_logic_device_summary" title="Logic Device Summary" column_number="3">
@@ -43,23 +43,23 @@
         </column_headers>
         <row>
             <data>Clock</data>
-            <data>0.0734365</data>
-            <data>3.70839%</data>
+            <data>0.0708893</data>
+            <data>3.6128%</data>
         </row>
         <row>
             <data>CLM</data>
-            <data>0.0618557</data>
-            <data>3.12358%</data>
+            <data>0.061267</data>
+            <data>3.1224%</data>
         </row>
         <row>
             <data>IO</data>
-            <data>0.845143</data>
-            <data>42.678%</data>
+            <data>0.845088</data>
+            <data>43.069%</data>
         </row>
         <row>
             <data>DRM</data>
-            <data>0.132489</data>
-            <data>6.69039%</data>
+            <data>0.125811</data>
+            <data>6.4118%</data>
         </row>
         <row>
             <data>APM</data>
@@ -69,22 +69,22 @@
         <row>
             <data>PLL</data>
             <data>0.0269998</data>
-            <data>1.36343%</data>
+            <data>1.37602%</data>
         </row>
         <row>
             <data>HSST</data>
             <data>0.265615</data>
-            <data>13.413%</data>
+            <data>13.5368%</data>
         </row>
         <row>
             <data>PCIE</data>
             <data>0.0114979</data>
-            <data>0.580618%</data>
+            <data>0.585976%</data>
         </row>
         <row>
             <data>Net</data>
-            <data>0.12884</data>
-            <data>6.50613%</data>
+            <data>0.122164</data>
+            <data>6.22598%</data>
         </row>
     </table>
     <table id="report_power_power_rail_summary" title="Power Rail Summary" column_number="5">
@@ -98,9 +98,9 @@
         <row>
             <data>vcc</data>
             <data>1.2</data>
-            <data>0.661706</data>
+            <data>0.646741</data>
             <data>0</data>
-            <data>0.794048</data>
+            <data>0.776089</data>
         </row>
         <row>
             <data>vccio33</data>
@@ -140,30 +140,30 @@
         <row>
             <data>vcc33a</data>
             <data>3.3</data>
-            <data>0.0935096</data>
+            <data>0.0934764</data>
             <data>0</data>
-            <data>0.308582</data>
+            <data>0.308472</data>
         </row>
         <row>
             <data>vcca_lane</data>
             <data>1.2</data>
-            <data>0.191051</data>
+            <data>0.191037</data>
             <data>0</data>
-            <data>0.229262</data>
+            <data>0.229244</data>
         </row>
         <row>
             <data>vcca_pll0</data>
             <data>1.2</data>
-            <data>0.0502613</data>
+            <data>0.0502522</data>
             <data>0</data>
-            <data>0.0603135</data>
+            <data>0.0603026</data>
         </row>
         <row>
             <data>vcca_pll1</data>
             <data>1.2</data>
-            <data>0.00462287</data>
+            <data>0.00461378</data>
             <data>0</data>
-            <data>0.00554744</data>
+            <data>0.00553654</data>
         </row>
     </table>
     <table id="report_power_runtime" title="Power Runtime &amp; Memory" column_number="7">
@@ -177,10 +177,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
+            <data>0h:0m:24s</data>
+            <data>0h:0m:24s</data>
             <data>0h:0m:25s</data>
-            <data>0h:0m:25s</data>
-            <data>0h:0m:27s</data>
-            <data>791</data>
+            <data>776</data>
             <data>WINDOWS 10 x86_64</data>
             <data>AMD Ryzen 9 4900HS with Radeon Graphics</data>
             <data>39</data>
@@ -248,7 +248,7 @@
                     </row>
                     <row>
                         <data>Junction Temperature</data>
-                        <data>58.0512</data>
+                        <data>57.749</data>
                     </row>
                     <row>
                         <data>Custom Effective Theta JA </data>

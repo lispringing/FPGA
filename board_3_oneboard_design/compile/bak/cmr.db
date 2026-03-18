@@ -175,7 +175,7 @@
         <row>
             <data>0h:0m:12s</data>
             <data>0h:0m:12s</data>
-            <data>0h:0m:22s</data>
+            <data>0h:0m:23s</data>
             <data>274</data>
             <data>WINDOWS 10 x86_64</data>
             <data>Unknown</data>
@@ -13364,19 +13364,19 @@
             <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
+            <data message="4">FSM de_out_state_fsm[3:0] inferred.</data>
+        </row>
+        <row>
             <data message="4">FSM cmos1_de_in_state_fsm[3:0] inferred.</data>
         </row>
         <row>
-            <data message="4">FSM de_out_state_fsm[3:0] inferred.</data>
+            <data message="4">FSM zoom_de_in_state_fsm[3:0] inferred.</data>
         </row>
         <row>
             <data message="4">FSM out_state_fsm[2:0] inferred.</data>
         </row>
         <row>
             <data message="4">FSM de_in_state_fsm[3:0] inferred.</data>
-        </row>
-        <row>
-            <data message="4">FSM zoom_de_in_state_fsm[3:0] inferred.</data>
         </row>
         <row>
             <data message="4">FSM config_step_fsm[1:0] inferred.</data>
@@ -14534,9 +14534,6 @@
             <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
             <data message="6">DRC-2021: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/source/eth_img_rec.v(line number: 24)] The net eth_rx_next_state[3] is un-driven, tie it to 0.</data>
         </row>
         <row>
@@ -14547,6 +14544,9 @@
         </row>
         <row>
             <data message="6">DRC-2021: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/source/eth_img_rec.v(line number: 24)] The net eth_rx_next_state[0] is un-driven, tie it to 0.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
             <data message="6">DRC-2021: [D:/Desktop/FPGA project/FPGA-Video-Capture-main/board_3_oneboard_design/source/ddr_test_top.v(line number: 1227)] The net eth0_img_de is un-driven, tie it to 0.</data>

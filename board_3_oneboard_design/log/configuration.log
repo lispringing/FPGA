@@ -12297,9 +12297,3 @@
 [Debug] [2026-3-17 20:14:54] COMMAND[Program] execute successfully, takes 2.5 secs.
 [Debug] [2026-3-17 20:14:54] End to send programming cmd.
 [Info] [2026-3-17 20:25:52] /***************************End Configration***************************/
-[Info] [2026-3-18 11:55:00] /***************************Start Configuration***************************/
-[Info] [2026-3-18 11:55:00] Path: D:/PDS_2022.2-SP1-Lite/bin
-[Info] [2026-3-18 11:55:00] Version: 132640
-[Info] [2026-3-18 11:55:01] Current Path: C:/Users/happuking/Desktop/FPGA/FPGA
-[Info] [2026-3-18 11:55:01] PDS Dir Path: C:/Users/happuking/Desktop/FPGA/FPGA
-[Info] [2026-3-18 11:55:11] /***************************End Configration***************************/

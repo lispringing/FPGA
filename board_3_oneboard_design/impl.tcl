@@ -3091,5 +3091,3 @@ dev_map
 pnr 
 report_timing 
 gen_bit_stream 
-set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
-compile -top_module test_ddr

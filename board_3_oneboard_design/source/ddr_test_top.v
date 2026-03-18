@@ -765,22 +765,23 @@ sobel_edge u_sobel (
 );
 // ================================================
 
-// ============== Sobel 总延迟对齐（4拍，关键！） ==============
-reg edge_de_d1, edge_de_d2, edge_de_d3, edge_de_d4;
-reg [7:0] edge_data_d1, edge_data_d2, edge_data_d3, edge_data_d4;
+// ============== ���ؼ��޸���Sobel �ӳٶ��� + ��� ==============
+reg edge_de_d1, edge_de_d2;
+reg [7:0] edge_data_d1, edge_data_d2;
 
 always @(posedge pix_clk_in) begin
-    edge_de_d1   <= edge_de;     edge_data_d1 <= edge_data;
-    edge_de_d2   <= edge_de_d1;  edge_data_d2 <= edge_data_d1;
-    edge_de_d3   <= edge_de_d2;  edge_data_d3 <= edge_data_d2;
-    edge_de_d4   <= edge_de_d3;  edge_data_d4 <= edge_data_d3;
+    edge_de_d1   <= edge_de;
+    edge_data_d1 <= edge_data;
+    edge_de_d2   <= edge_de_d1;
+    edge_data_d2 <= edge_data_d1;
 end
 
-wire edge_de_delayed   = edge_de_d4;
-wire [7:0] edge_data_delayed = edge_data_d4;
+wire edge_de_delayed   = edge_de_d2;
+wire [7:0] edge_data_delayed = edge_data_d2;
 
 wire [31:0] edge_packed;
 assign edge_packed = {edge_data_delayed, 2'b00, edge_data_delayed, 2'b00, edge_data_delayed, 2'b00, 2'b00};
+// ================================================
 
 
 

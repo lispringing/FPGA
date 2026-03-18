@@ -755,14 +755,14 @@ gray_convert u_gray (
     .gray_out (gray_data)
 );
 
-sobel_edge u_sobel (
-    .clk      (pix_clk_in),
-    .rst_n    (ddr_ip_rst_n && ddr_init_done),
-    .de_in    (gray_de),
-    .gray_in  (gray_data),
-    .de_out   (edge_de),
-    .edge_out (edge_data)
-);
+//sobel_edge u_sobel (
+ //   .clk      (pix_clk_in),
+ //   .rst_n    (ddr_ip_rst_n && ddr_init_done),
+ //   .de_in    (gray_de),
+ //   .gray_in  (gray_data),
+ //   .de_out   (edge_de),
+ //   .edge_out (edge_data)
+//);
 // ================================================
 
 // ============== ���ؼ��޸���Sobel �ӳٶ��� + ��� ==============

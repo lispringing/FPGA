@@ -577,10 +577,8 @@ ov5640_power_on_delay	power_on_delay_inst(
 	.camera1_rstn            (cmos1_reset    ),//output
 	.camera2_rstn            (cmos2_reset    ),//output	
 	.camera_pwnd             (               ),//output
-	.initial_en              (1'b1     ) //output		
+	.initial_en              (initial_en     ) //output		
 );
-assign cmos1_reset = 1'b1;   // 强制复位高
-assign cmos2_reset = 1'b1;   // 强制复位高
 //CMOS 8bitת16bit//////////
 //CMOS1
 always@(posedge cmos1_pclk)
@@ -702,7 +700,7 @@ user_axi_m_arbitration (
 //fifo2�źţ���CMOS1                                  
     .video2_clk_in           (cmos1_pclk_16bit),                       
     .video2_de_in            (cmos1_href_16bit ),
-    .video2_data_in          ({cmos1_d_16bit[15:11],3'b0, cmos1_d_16bit[10:5],2'b0, cmos1_d_16bit[4:0],3'b0}),  // R5 G6 B5 正确顺序
+    .video2_data_in          ({cmos1_d_16bit[4:0],5'b0,cmos1_d_16bit[10:5],4'b0,cmos1_d_16bit[15:11],7'b0}),//27
     .video2_rd_en            (video2_rd_en   ),
     .video2_data_out         (video2_data_out),
     .fram2_done              (fram2_done     ),
@@ -710,7 +708,7 @@ user_axi_m_arbitration (
 //fifo3�ź�                                        
     .video3_clk_in           (cmos2_pclk_16bit),                       
     .video3_de_in            (cmos2_href_16bit    ),
-    .video3_data_in          ({cmos2_d_16bit[15:11],3'b0, cmos2_d_16bit[10:5],2'b0, cmos2_d_16bit[4:0],3'b0}),
+    .video3_data_in          ({cmos2_d_16bit[4:0],5'b0,cmos2_d_16bit[10:5],4'b0,cmos2_d_16bit[15:11],7'b0}  ),
     .video3_rd_en            (video3_rd_en   ),
     .video3_data_out         (video3_data_out),
     .fram3_done              (fram3_done     ),

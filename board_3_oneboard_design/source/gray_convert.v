@@ -15,7 +15,7 @@ always @(posedge clk or negedge rst_n) begin
         gray_out <= 0;
     end else if (de_in) begin
         de_out   <= 1;
-        // ï¿½ï¿½×¼ï¿½ï¿½È¨ï¿½Ò¶È£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ£ï¿½
+        // ±ê×¼¼ÓÈ¨»Ò¶È£¨ÈËÑÛ×îÃô¸Ğ£©
         gray_out <= (r_in * 77 + g_in * 150 + b_in * 29) >> 8;
     end else begin
         de_out   <= 0;

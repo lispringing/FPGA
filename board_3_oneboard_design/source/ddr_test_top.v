@@ -409,6 +409,13 @@ always @(posedge pix_clk_out) begin
         out_state <= 'd0;
     end 
     else if(ddr_init_done) begin 
+        // 临时强制输出中灰（测试输出通路是否通）
+        r_vs_out <= vs_out;   // 保持同步
+        r_hs_out <= hs_out;
+        r_de_out <= de_out;
+        r_r_out  <= 8'h80;   // R=128
+        r_g_out  <= 8'h80;   // G=128
+        r_b_out  <= 8'h80;   // B=128 → 均匀中灰画面
         r_vs_out_d0 <= vs_out;
         r_vs_out    <= r_vs_out_d0;
         r_hs_out <= hs_out;

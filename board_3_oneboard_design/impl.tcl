@@ -3053,3 +3053,22 @@ pnr
 report_timing 
 gen_bit_stream 
 report_power 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module test_ddr
+synthesize -ads -selected_syn_tool_opt 2 
+synthesize -ads -selected_syn_tool_opt 2 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module test_ddr
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+add_design "C:/Users/happuking/Desktop/board_3_oneboard_design/source/gray_convert.v"
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module test_ddr
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 

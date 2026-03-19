@@ -10711,3 +10711,378 @@
 [Debug] [2023-8-17 23:32:39] COMMAND[Program] execute successfully, takes 2.2 secs.
 [Debug] [2023-8-17 23:32:39] End to send programming cmd.
 [Info] [2023-8-18 00:09:47] /***************************End Configration***************************/
+[Info] [2026-3-18 20:54:31] /***************************Start Configuration***************************/
+[Info] [2026-3-18 20:54:31] Path: E:/PDS/pds/PDS_2022.1/bin
+[Info] [2026-3-18 20:54:31] Version: 99559
+[Info] [2026-3-18 20:54:32] Current Path: D:/Desktop/FPGA-Video-Capture-main/FPGA-Video-Capture-main/board_3_oneboard_design
+[Info] [2026-3-18 20:54:32] PDS Dir Path: D:/Desktop/FPGA-Video-Capture-main/FPGA-Video-Capture-main/board_3_oneboard_design
+[Info] [2026-3-18 20:54:36] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-3-18 20:54:36] Client Local host name:PC-20260214DQXF
+[Debug] [2026-3-18 20:54:36] Client Local Address:192.168.43.152
+[Debug] [2026-3-18 20:54:36] Client Local Address:192.168.70.1
+[Debug] [2026-3-18 20:54:36] Client Local Address:192.168.100.1
+[Debug] [2026-3-18 20:54:36] Server Address:127.0.0.1, Port:65420
+[Info] [2026-3-18 20:54:37] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-3-18 20:54:37] Finish.
+[Info] [2026-3-18 20:54:37] Connect server succeeded
+[Debug] [2026-3-18 20:54:37] Send RPC:1
+[Debug] [2026-3-18 20:54:37] Send cmd [check version information:40005] OK
+[Debug] [2026-3-18 20:54:39] Send RPC:2
+[Debug] [2026-3-18 20:54:39] Send cmd [get_cable_paras:40011] OK
+[Debug] [2026-3-18 20:54:39] Begin to send initialize chain cmd...
+[Debug] [2026-3-18 20:54:39] Send RPC:3
+[Debug] [2026-3-18 20:54:39] Send cmd [Open config cable:20001] OK
+[Debug] [2026-3-18 20:54:39] End to send initialize chain cmd.
+[Debug] [2026-3-18 20:54:39] COMMAND[check version information] execute successfully, takes 1.8 secs.
+[Debug] [2026-3-18 20:54:41] COMMAND[get_cable_paras] execute successfully, takes 2.1 secs.
+[Debug] [2026-3-18 20:54:42] begin the exec of open cable cmd...
+[Debug] [2026-3-18 20:54:42] Begin to deal with chain from server...
+[Debug] [2026-3-18 20:54:42] Begin to set user chain...
+[Debug] [2026-3-18 20:54:42] End to set user chain.
+[Debug] [2026-3-18 20:54:42] Begin to update graphic item and tree item ...
+[Debug] [2026-3-18 20:54:42] End to update graphic item and tree item ...
+[Info] [2026-3-18 20:54:45] set OpenLastPath: D:/Desktop/FPGA-Video-Capture-main/FPGA-Video-Capture-main/board_3_oneboard_design/generate_bitstream/test_ddr.sbit
+[Debug] [2026-3-18 20:54:45] begin to get device info from CFG file...
+[Debug] [2026-3-18 20:54:45] end to get device info from CFG file...
+[Debug] [2026-3-18 20:54:45] Begin to update graphic item and tree item ...
+[Debug] [2026-3-18 20:54:45] End to update graphic item and tree item ...
+[Debug] [2026-3-18 20:54:45] End to deal wiht chain from server.
+[Debug] [2026-3-18 20:54:45] end the exec of open cable cmd.
+[Debug] [2026-3-18 20:54:45] COMMAND[Open config cable] execute successfully, takes 5.9 secs.
+[Debug] [2026-3-18 20:54:46] Begin to send programming cmd...
+[Debug] [2026-3-18 20:54:46] Send RPC:4
+[Debug] [2026-3-18 20:54:46] Begin to send program data.
+[Debug] [2026-3-18 20:54:46] End to send program data.
+[Debug] [2026-3-18 20:54:46] Send cmd [Program:20002] OK
+[Debug] [2026-3-18 20:54:47] The value of Progress is 6
+[Debug] [2026-3-18 20:54:47] The value of Progress is 10
+[Debug] [2026-3-18 20:54:47] The value of Progress is 15
+[Debug] [2026-3-18 20:54:47] The value of Progress is 20
+[Debug] [2026-3-18 20:54:47] The value of Progress is 25
+[Debug] [2026-3-18 20:54:47] The value of Progress is 30
+[Debug] [2026-3-18 20:54:47] The value of Progress is 35
+[Debug] [2026-3-18 20:54:47] The value of Progress is 40
+[Debug] [2026-3-18 20:54:48] The value of Progress is 45
+[Debug] [2026-3-18 20:54:48] The value of Progress is 50
+[Debug] [2026-3-18 20:54:48] The value of Progress is 55
+[Debug] [2026-3-18 20:54:48] The value of Progress is 60
+[Debug] [2026-3-18 20:54:48] The value of Progress is 65
+[Debug] [2026-3-18 20:54:48] The value of Progress is 70
+[Debug] [2026-3-18 20:54:48] The value of Progress is 75
+[Debug] [2026-3-18 20:54:48] The value of Progress is 80
+[Debug] [2026-3-18 20:54:48] The value of Progress is 85
+[Debug] [2026-3-18 20:54:48] The value of Progress is 90
+[Debug] [2026-3-18 20:54:48] The value of Progress is 95
+[Debug] [2026-3-18 20:54:48] The value of Progress is 100
+[Debug] [2026-3-18 20:54:49] COMMAND[Program] execute successfully, takes 2.4 secs.
+[Debug] [2026-3-18 20:54:49] End to send programming cmd.
+[Debug] [2026-3-18 20:55:03] Begin to send programming cmd...
+[Debug] [2026-3-18 20:55:03] Send RPC:5
+[Debug] [2026-3-18 20:55:03] Begin to send program data.
+[Debug] [2026-3-18 20:55:03] End to send program data.
+[Debug] [2026-3-18 20:55:03] Send cmd [Program:20002] OK
+[Debug] [2026-3-18 20:55:03] The value of Progress is 6
+[Debug] [2026-3-18 20:55:03] The value of Progress is 10
+[Debug] [2026-3-18 20:55:03] The value of Progress is 15
+[Debug] [2026-3-18 20:55:04] The value of Progress is 20
+[Debug] [2026-3-18 20:55:04] The value of Progress is 25
+[Debug] [2026-3-18 20:55:04] The value of Progress is 30
+[Debug] [2026-3-18 20:55:04] The value of Progress is 35
+[Debug] [2026-3-18 20:55:04] The value of Progress is 40
+[Debug] [2026-3-18 20:55:04] The value of Progress is 45
+[Debug] [2026-3-18 20:55:04] The value of Progress is 50
+[Debug] [2026-3-18 20:55:04] The value of Progress is 55
+[Debug] [2026-3-18 20:55:04] The value of Progress is 60
+[Debug] [2026-3-18 20:55:04] The value of Progress is 65
+[Debug] [2026-3-18 20:55:04] The value of Progress is 70
+[Debug] [2026-3-18 20:55:05] The value of Progress is 75
+[Debug] [2026-3-18 20:55:05] The value of Progress is 80
+[Debug] [2026-3-18 20:55:05] The value of Progress is 85
+[Debug] [2026-3-18 20:55:05] The value of Progress is 90
+[Debug] [2026-3-18 20:55:05] The value of Progress is 95
+[Debug] [2026-3-18 20:55:05] The value of Progress is 100
+[Debug] [2026-3-18 20:55:05] COMMAND[Program] execute successfully, takes 2.4 secs.
+[Debug] [2026-3-18 20:55:05] End to send programming cmd.
+[Debug] [2026-3-18 20:55:36] Begin to send programming cmd...
+[Debug] [2026-3-18 20:55:36] Send RPC:6
+[Debug] [2026-3-18 20:55:36] Begin to send program data.
+[Debug] [2026-3-18 20:55:36] End to send program data.
+[Debug] [2026-3-18 20:55:36] Send cmd [Program:20002] OK
+[Debug] [2026-3-18 20:55:37] The value of Progress is 6
+[Debug] [2026-3-18 20:55:37] The value of Progress is 10
+[Debug] [2026-3-18 20:55:37] The value of Progress is 15
+[Debug] [2026-3-18 20:55:37] The value of Progress is 20
+[Debug] [2026-3-18 20:55:37] The value of Progress is 25
+[Debug] [2026-3-18 20:55:37] The value of Progress is 30
+[Debug] [2026-3-18 20:55:37] The value of Progress is 35
+[Debug] [2026-3-18 20:55:37] The value of Progress is 40
+[Debug] [2026-3-18 20:55:37] The value of Progress is 45
+[Debug] [2026-3-18 20:55:38] The value of Progress is 50
+[Debug] [2026-3-18 20:55:38] The value of Progress is 55
+[Debug] [2026-3-18 20:55:38] The value of Progress is 60
+[Debug] [2026-3-18 20:55:38] The value of Progress is 65
+[Debug] [2026-3-18 20:55:38] The value of Progress is 70
+[Debug] [2026-3-18 20:55:38] The value of Progress is 75
+[Debug] [2026-3-18 20:55:38] The value of Progress is 80
+[Debug] [2026-3-18 20:55:38] The value of Progress is 85
+[Debug] [2026-3-18 20:55:38] The value of Progress is 90
+[Debug] [2026-3-18 20:55:38] The value of Progress is 95
+[Debug] [2026-3-18 20:55:38] The value of Progress is 100
+[Debug] [2026-3-18 20:55:39] COMMAND[Program] execute successfully, takes 2.5 secs.
+[Debug] [2026-3-18 20:55:39] End to send programming cmd.
+[Debug] [2026-3-18 20:56:06] Begin to send programming cmd...
+[Debug] [2026-3-18 20:56:06] Send RPC:7
+[Debug] [2026-3-18 20:56:06] Begin to send program data.
+[Debug] [2026-3-18 20:56:06] End to send program data.
+[Debug] [2026-3-18 20:56:06] Send cmd [Program:20002] OK
+[Debug] [2026-3-18 20:56:06] The value of Progress is 6
+[Debug] [2026-3-18 20:56:06] The value of Progress is 10
+[Debug] [2026-3-18 20:56:06] The value of Progress is 15
+[Debug] [2026-3-18 20:56:06] The value of Progress is 20
+[Debug] [2026-3-18 20:56:07] The value of Progress is 25
+[Debug] [2026-3-18 20:56:07] The value of Progress is 30
+[Debug] [2026-3-18 20:56:07] The value of Progress is 35
+[Debug] [2026-3-18 20:56:07] The value of Progress is 40
+[Debug] [2026-3-18 20:56:07] The value of Progress is 45
+[Debug] [2026-3-18 20:56:07] The value of Progress is 50
+[Debug] [2026-3-18 20:56:07] The value of Progress is 55
+[Debug] [2026-3-18 20:56:07] The value of Progress is 60
+[Debug] [2026-3-18 20:56:07] The value of Progress is 65
+[Debug] [2026-3-18 20:56:07] The value of Progress is 70
+[Debug] [2026-3-18 20:56:07] The value of Progress is 75
+[Debug] [2026-3-18 20:56:08] The value of Progress is 80
+[Debug] [2026-3-18 20:56:08] The value of Progress is 85
+[Debug] [2026-3-18 20:56:08] The value of Progress is 90
+[Debug] [2026-3-18 20:56:08] The value of Progress is 95
+[Debug] [2026-3-18 20:56:08] The value of Progress is 100
+[Debug] [2026-3-18 20:56:08] COMMAND[Program] execute successfully, takes 2.4 secs.
+[Debug] [2026-3-18 20:56:08] End to send programming cmd.
+[Debug] [2026-3-18 20:56:42] Begin to send programming cmd...
+[Debug] [2026-3-18 20:56:42] Send RPC:8
+[Debug] [2026-3-18 20:56:42] Begin to send program data.
+[Debug] [2026-3-18 20:56:42] End to send program data.
+[Debug] [2026-3-18 20:56:42] Send cmd [Program:20002] OK
+[Debug] [2026-3-18 20:56:42] The value of Progress is 6
+[Debug] [2026-3-18 20:56:42] The value of Progress is 10
+[Debug] [2026-3-18 20:56:43] The value of Progress is 15
+[Debug] [2026-3-18 20:56:43] The value of Progress is 20
+[Debug] [2026-3-18 20:56:43] The value of Progress is 25
+[Debug] [2026-3-18 20:56:43] The value of Progress is 30
+[Debug] [2026-3-18 20:56:43] The value of Progress is 35
+[Debug] [2026-3-18 20:56:43] The value of Progress is 40
+[Debug] [2026-3-18 20:56:43] The value of Progress is 45
+[Debug] [2026-3-18 20:56:43] The value of Progress is 50
+[Debug] [2026-3-18 20:56:43] The value of Progress is 55
+[Debug] [2026-3-18 20:56:43] The value of Progress is 60
+[Debug] [2026-3-18 20:56:43] The value of Progress is 65
+[Debug] [2026-3-18 20:56:44] The value of Progress is 70
+[Debug] [2026-3-18 20:56:44] The value of Progress is 75
+[Debug] [2026-3-18 20:56:44] The value of Progress is 80
+[Debug] [2026-3-18 20:56:44] The value of Progress is 85
+[Debug] [2026-3-18 20:56:44] The value of Progress is 90
+[Debug] [2026-3-18 20:56:44] The value of Progress is 95
+[Debug] [2026-3-18 20:56:44] The value of Progress is 100
+[Debug] [2026-3-18 20:56:44] COMMAND[Program] execute successfully, takes 2.5 secs.
+[Debug] [2026-3-18 20:56:44] End to send programming cmd.
+[Debug] [2026-3-18 20:57:20] Begin to send programming cmd...
+[Debug] [2026-3-18 20:57:20] Send RPC:9
+[Debug] [2026-3-18 20:57:20] Begin to send program data.
+[Debug] [2026-3-18 20:57:20] End to send program data.
+[Debug] [2026-3-18 20:57:20] Send cmd [Program:20002] OK
+[Debug] [2026-3-18 20:57:21] The value of Progress is 6
+[Debug] [2026-3-18 20:57:21] The value of Progress is 10
+[Debug] [2026-3-18 20:57:21] The value of Progress is 15
+[Debug] [2026-3-18 20:57:21] The value of Progress is 20
+[Debug] [2026-3-18 20:57:21] The value of Progress is 25
+[Debug] [2026-3-18 20:57:21] The value of Progress is 30
+[Debug] [2026-3-18 20:57:21] The value of Progress is 35
+[Debug] [2026-3-18 20:57:21] The value of Progress is 40
+[Debug] [2026-3-18 20:57:21] The value of Progress is 45
+[Debug] [2026-3-18 20:57:21] The value of Progress is 50
+[Debug] [2026-3-18 20:57:22] The value of Progress is 55
+[Debug] [2026-3-18 20:57:22] The value of Progress is 60
+[Debug] [2026-3-18 20:57:22] The value of Progress is 65
+[Debug] [2026-3-18 20:57:22] The value of Progress is 70
+[Debug] [2026-3-18 20:57:22] The value of Progress is 75
+[Debug] [2026-3-18 20:57:22] The value of Progress is 80
+[Debug] [2026-3-18 20:57:22] The value of Progress is 85
+[Debug] [2026-3-18 20:57:22] The value of Progress is 90
+[Debug] [2026-3-18 20:57:22] The value of Progress is 95
+[Debug] [2026-3-18 20:57:22] The value of Progress is 100
+[Debug] [2026-3-18 20:57:23] COMMAND[Program] execute successfully, takes 2.5 secs.
+[Debug] [2026-3-18 20:57:23] End to send programming cmd.
+[Debug] [2026-3-18 20:57:38] Begin to send programming cmd...
+[Debug] [2026-3-18 20:57:38] Send RPC:10
+[Debug] [2026-3-18 20:57:38] Begin to send program data.
+[Debug] [2026-3-18 20:57:38] End to send program data.
+[Debug] [2026-3-18 20:57:38] Send cmd [Program:20002] OK
+[Debug] [2026-3-18 20:57:39] The value of Progress is 6
+[Debug] [2026-3-18 20:57:39] The value of Progress is 10
+[Debug] [2026-3-18 20:57:39] The value of Progress is 15
+[Debug] [2026-3-18 20:57:39] The value of Progress is 20
+[Debug] [2026-3-18 20:57:39] The value of Progress is 25
+[Debug] [2026-3-18 20:57:39] The value of Progress is 30
+[Debug] [2026-3-18 20:57:39] The value of Progress is 35
+[Debug] [2026-3-18 20:57:40] The value of Progress is 40
+[Debug] [2026-3-18 20:57:40] The value of Progress is 45
+[Debug] [2026-3-18 20:57:40] The value of Progress is 50
+[Debug] [2026-3-18 20:57:40] The value of Progress is 55
+[Debug] [2026-3-18 20:57:40] The value of Progress is 60
+[Debug] [2026-3-18 20:57:40] The value of Progress is 65
+[Debug] [2026-3-18 20:57:40] The value of Progress is 70
+[Debug] [2026-3-18 20:57:40] The value of Progress is 75
+[Debug] [2026-3-18 20:57:40] The value of Progress is 80
+[Debug] [2026-3-18 20:57:40] The value of Progress is 85
+[Debug] [2026-3-18 20:57:40] The value of Progress is 90
+[Debug] [2026-3-18 20:57:40] The value of Progress is 95
+[Debug] [2026-3-18 20:57:41] The value of Progress is 100
+[Debug] [2026-3-18 20:57:41] COMMAND[Program] execute successfully, takes 2.4 secs.
+[Debug] [2026-3-18 20:57:41] End to send programming cmd.
+[Debug] [2026-3-18 20:58:02] Begin to send programming cmd...
+[Debug] [2026-3-18 20:58:02] Send RPC:11
+[Debug] [2026-3-18 20:58:02] Begin to send program data.
+[Debug] [2026-3-18 20:58:02] End to send program data.
+[Debug] [2026-3-18 20:58:02] Send cmd [Program:20002] OK
+[Debug] [2026-3-18 20:58:02] The value of Progress is 6
+[Debug] [2026-3-18 20:58:02] The value of Progress is 10
+[Debug] [2026-3-18 20:58:02] The value of Progress is 15
+[Debug] [2026-3-18 20:58:02] The value of Progress is 20
+[Debug] [2026-3-18 20:58:02] The value of Progress is 25
+[Debug] [2026-3-18 20:58:03] The value of Progress is 30
+[Debug] [2026-3-18 20:58:03] The value of Progress is 35
+[Debug] [2026-3-18 20:58:03] The value of Progress is 40
+[Debug] [2026-3-18 20:58:03] The value of Progress is 45
+[Debug] [2026-3-18 20:58:03] The value of Progress is 50
+[Debug] [2026-3-18 20:58:03] The value of Progress is 55
+[Debug] [2026-3-18 20:58:03] The value of Progress is 60
+[Debug] [2026-3-18 20:58:03] The value of Progress is 65
+[Debug] [2026-3-18 20:58:03] The value of Progress is 70
+[Debug] [2026-3-18 20:58:03] The value of Progress is 75
+[Debug] [2026-3-18 20:58:03] The value of Progress is 80
+[Debug] [2026-3-18 20:58:03] The value of Progress is 85
+[Debug] [2026-3-18 20:58:04] The value of Progress is 90
+[Debug] [2026-3-18 20:58:04] The value of Progress is 95
+[Debug] [2026-3-18 20:58:04] The value of Progress is 100
+[Debug] [2026-3-18 20:58:04] COMMAND[Program] execute successfully, takes 2.4 secs.
+[Debug] [2026-3-18 20:58:04] End to send programming cmd.
+[Debug] [2026-3-18 20:58:13] Begin to send programming cmd...
+[Debug] [2026-3-18 20:58:13] Send RPC:12
+[Debug] [2026-3-18 20:58:13] Begin to send program data.
+[Debug] [2026-3-18 20:58:13] End to send program data.
+[Debug] [2026-3-18 20:58:13] Send cmd [Program:20002] OK
+[Debug] [2026-3-18 20:58:14] The value of Progress is 6
+[Debug] [2026-3-18 20:58:14] The value of Progress is 10
+[Debug] [2026-3-18 20:58:14] The value of Progress is 15
+[Debug] [2026-3-18 20:58:14] The value of Progress is 20
+[Debug] [2026-3-18 20:58:14] The value of Progress is 25
+[Debug] [2026-3-18 20:58:14] The value of Progress is 30
+[Debug] [2026-3-18 20:58:14] The value of Progress is 35
+[Debug] [2026-3-18 20:58:14] The value of Progress is 40
+[Debug] [2026-3-18 20:58:14] The value of Progress is 45
+[Debug] [2026-3-18 20:58:14] The value of Progress is 50
+[Debug] [2026-3-18 20:58:15] The value of Progress is 55
+[Debug] [2026-3-18 20:58:15] The value of Progress is 60
+[Debug] [2026-3-18 20:58:15] The value of Progress is 65
+[Debug] [2026-3-18 20:58:15] The value of Progress is 70
+[Debug] [2026-3-18 20:58:15] The value of Progress is 75
+[Debug] [2026-3-18 20:58:15] The value of Progress is 80
+[Debug] [2026-3-18 20:58:15] The value of Progress is 85
+[Debug] [2026-3-18 20:58:15] The value of Progress is 90
+[Debug] [2026-3-18 20:58:15] The value of Progress is 95
+[Debug] [2026-3-18 20:58:15] The value of Progress is 100
+[Debug] [2026-3-18 20:58:16] COMMAND[Program] execute successfully, takes 2.4 secs.
+[Debug] [2026-3-18 20:58:16] End to send programming cmd.
+[Debug] [2026-3-18 20:59:24] Begin to send programming cmd...
+[Debug] [2026-3-18 20:59:24] Send RPC:13
+[Debug] [2026-3-18 20:59:24] Begin to send program data.
+[Debug] [2026-3-18 20:59:24] End to send program data.
+[Debug] [2026-3-18 20:59:24] Send cmd [Program:20002] OK
+[Debug] [2026-3-18 20:59:25] The value of Progress is 6
+[Debug] [2026-3-18 20:59:25] The value of Progress is 10
+[Debug] [2026-3-18 20:59:25] The value of Progress is 15
+[Debug] [2026-3-18 20:59:25] The value of Progress is 20
+[Debug] [2026-3-18 20:59:25] The value of Progress is 25
+[Debug] [2026-3-18 20:59:25] The value of Progress is 30
+[Debug] [2026-3-18 20:59:25] The value of Progress is 35
+[Debug] [2026-3-18 20:59:25] The value of Progress is 40
+[Debug] [2026-3-18 20:59:26] The value of Progress is 45
+[Debug] [2026-3-18 20:59:26] The value of Progress is 50
+[Debug] [2026-3-18 20:59:26] The value of Progress is 55
+[Debug] [2026-3-18 20:59:26] The value of Progress is 60
+[Debug] [2026-3-18 20:59:26] The value of Progress is 65
+[Debug] [2026-3-18 20:59:26] The value of Progress is 70
+[Debug] [2026-3-18 20:59:26] The value of Progress is 75
+[Debug] [2026-3-18 20:59:26] The value of Progress is 80
+[Debug] [2026-3-18 20:59:26] The value of Progress is 85
+[Debug] [2026-3-18 20:59:26] The value of Progress is 90
+[Debug] [2026-3-18 20:59:26] The value of Progress is 95
+[Debug] [2026-3-18 20:59:26] The value of Progress is 100
+[Debug] [2026-3-18 20:59:27] COMMAND[Program] execute successfully, takes 2.4 secs.
+[Debug] [2026-3-18 20:59:27] End to send programming cmd.
+[Info] [2026-3-18 21:10:09] /***************************End Configration***************************/
+[Info] [2026-3-18 21:45:45] /***************************Start Configuration***************************/
+[Info] [2026-3-18 21:45:45] Path: E:/PDS/pds/PDS_2022.1/bin
+[Info] [2026-3-18 21:45:45] Version: 99559
+[Info] [2026-3-18 21:45:46] Current Path: D:/Desktop/FPGA-Video-Capture-main/FPGA-Video-Capture-main/board_3_oneboard_design
+[Info] [2026-3-18 21:45:46] PDS Dir Path: D:/Desktop/FPGA-Video-Capture-main/FPGA-Video-Capture-main/board_3_oneboard_design
+[Info] [2026-3-18 21:45:51] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-3-18 21:45:51] Client Local host name:PC-20260214DQXF
+[Debug] [2026-3-18 21:45:51] Client Local Address:192.168.193.19
+[Debug] [2026-3-18 21:45:51] Client Local Address:192.168.70.1
+[Debug] [2026-3-18 21:45:51] Client Local Address:192.168.100.1
+[Debug] [2026-3-18 21:45:51] Server Address:127.0.0.1, Port:65420
+[Info] [2026-3-18 21:45:52] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-3-18 21:45:52] Finish.
+[Info] [2026-3-18 21:45:52] Connect server succeeded
+[Debug] [2026-3-18 21:45:52] Send RPC:1
+[Debug] [2026-3-18 21:45:52] Send cmd [check version information:40005] OK
+[Debug] [2026-3-18 21:45:54] Send RPC:2
+[Debug] [2026-3-18 21:45:54] Send cmd [get_cable_paras:40011] OK
+[Debug] [2026-3-18 21:45:54] Begin to send initialize chain cmd...
+[Debug] [2026-3-18 21:45:54] Send RPC:3
+[Debug] [2026-3-18 21:45:54] Send cmd [Open config cable:20001] OK
+[Debug] [2026-3-18 21:45:54] End to send initialize chain cmd.
+[Debug] [2026-3-18 21:45:54] COMMAND[check version information] execute successfully, takes 1.9 secs.
+[Debug] [2026-3-18 21:45:56] COMMAND[get_cable_paras] execute successfully, takes 2.1 secs.
+[Debug] [2026-3-18 21:45:57] begin the exec of open cable cmd...
+[Debug] [2026-3-18 21:45:57] Begin to deal with chain from server...
+[Debug] [2026-3-18 21:45:57] Begin to set user chain...
+[Debug] [2026-3-18 21:45:57] End to set user chain.
+[Debug] [2026-3-18 21:45:57] Begin to update graphic item and tree item ...
+[Debug] [2026-3-18 21:45:57] End to update graphic item and tree item ...
+[Info] [2026-3-18 21:46:00] set OpenLastPath: D:/Desktop/FPGA-Video-Capture-main/FPGA-Video-Capture-main/board_3_oneboard_design/generate_bitstream/test_ddr.sbit
+[Debug] [2026-3-18 21:46:00] begin to get device info from CFG file...
+[Debug] [2026-3-18 21:46:00] end to get device info from CFG file...
+[Debug] [2026-3-18 21:46:00] Begin to update graphic item and tree item ...
+[Debug] [2026-3-18 21:46:00] End to update graphic item and tree item ...
+[Debug] [2026-3-18 21:46:00] End to deal wiht chain from server.
+[Debug] [2026-3-18 21:46:00] end the exec of open cable cmd.
+[Debug] [2026-3-18 21:46:00] COMMAND[Open config cable] execute successfully, takes 6.0 secs.
+[Debug] [2026-3-18 21:46:01] Begin to send programming cmd...
+[Debug] [2026-3-18 21:46:01] Send RPC:4
+[Debug] [2026-3-18 21:46:01] Begin to send program data.
+[Debug] [2026-3-18 21:46:01] End to send program data.
+[Debug] [2026-3-18 21:46:01] Send cmd [Program:20002] OK
+[Debug] [2026-3-18 21:46:02] The value of Progress is 6
+[Debug] [2026-3-18 21:46:02] The value of Progress is 10
+[Debug] [2026-3-18 21:46:02] The value of Progress is 15
+[Debug] [2026-3-18 21:46:02] The value of Progress is 20
+[Debug] [2026-3-18 21:46:02] The value of Progress is 25
+[Debug] [2026-3-18 21:46:02] The value of Progress is 30
+[Debug] [2026-3-18 21:46:02] The value of Progress is 35
+[Debug] [2026-3-18 21:46:02] The value of Progress is 40
+[Debug] [2026-3-18 21:46:03] The value of Progress is 45
+[Debug] [2026-3-18 21:46:03] The value of Progress is 50
+[Debug] [2026-3-18 21:46:03] The value of Progress is 55
+[Debug] [2026-3-18 21:46:03] The value of Progress is 60
+[Debug] [2026-3-18 21:46:03] The value of Progress is 65
+[Debug] [2026-3-18 21:46:03] The value of Progress is 70
+[Debug] [2026-3-18 21:46:03] The value of Progress is 75
+[Debug] [2026-3-18 21:46:03] The value of Progress is 80
+[Debug] [2026-3-18 21:46:03] The value of Progress is 85
+[Debug] [2026-3-18 21:46:03] The value of Progress is 90
+[Debug] [2026-3-18 21:46:03] The value of Progress is 95
+[Debug] [2026-3-18 21:46:03] The value of Progress is 100
+[Debug] [2026-3-18 21:46:04] COMMAND[Program] execute successfully, takes 2.5 secs.
+[Debug] [2026-3-18 21:46:04] End to send programming cmd.
+[Info] [2026-3-18 21:49:22] /***************************End Configration***************************/
